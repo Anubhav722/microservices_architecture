@@ -1,0 +1,17 @@
+- new project (developing from scratch)
+- evolving requirements
+- business domain
+-- not fully understood
+-- getting domain experts involved
+-- system boundaries will evolve
+
+teams experience:
+- first microservice
+- experienced with microservice
+
+is it going to be integrated to an existing system.
+- monolithic system
+- established microservices architecture
+
+push for change
+- changes to apply microservices priniples

@@ -1,0 +1,24 @@
+transactions are useful; they ensure data integrity. (allow us to create or update several records).
+if one of them fails we can roll the transaction back.
+
+transactions are simple in a monolith.
+
+transactions spanning microservices are complex. (distributed transaction):
+- complex to observe
+- complex to problem solve
+- complex to rollback (we will need to perform rollback across all microservices).
+
+options for failed transactions:
+- try again later (will be placed back into the queue) relies on the other microservice not failing
+- abort entire transaction
+- use a transaction manager.
+-- two phase commit (all the participating microservices first tell the transaction manager if they are okay to commit their part of the transaction, and if they all are, the transaction manager tells all participating microservices to commit the transaction. and if any of microservices participating in the transaction does not respond or responds with a "NO" to committing, then the transaction manager tells all participating microservices to rollback the transaction). 
+The problem with the use of transaction manager is that we become heavily reliant on the transaction manager.
+
+disadvantage of transaction manager:
+- reliance on transaction manager
+- delay in processing
+- potential bottleneck
+- complex to implement
+
+distributed transaction compatibility

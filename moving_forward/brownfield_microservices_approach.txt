@@ -3,6 +3,7 @@ our existing monolithic system
 existing system:
 - monolithic system
 - seems large to split
+- one business unit
 
 lacks microservices design principles
 - start by splitting the domains within the code. separation which reflects domain

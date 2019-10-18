@@ -14,4 +14,6 @@ refactor database into multiple databases
 
 data referential integrity (for example cascading: can be done by microservices talking to each other)
 
-static data tables: should be placed in a config file and should be available to all microservices
+static data tables (reqd. by all microservices): should be placed in a config file and should be available to all microservices
+
+shared data: same as for static data tables.

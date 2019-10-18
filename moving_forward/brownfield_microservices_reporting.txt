@@ -1,0 +1,13 @@
+microservices complicate reporting
+
+data split across microservices
+no central database
+joining data across databases
+slower reporting
+complicate report development
+
+possible solutions:
+- service calls for report data
+- dedicated reporting service which calls other microservices to collect the data and to consolidate the data so that it can be presented in a report. however this cannot be adequate if we're reporting on large volumes of data or if we need our reporting to be real time.
+- another option: "data pump" which pumps the data to a central database that can be used for reporting purposes. how we implement a data pump will depend on the requirements. for ex. if we need the data in real time.
+- if real time data report is not a requirement, we could have a consolidation environment where all the data from all the microservices is consolidated into central database. this can be done using an overnightly job. so in order for microservices architecture to be successful, we need to ensure, we have some strategy.

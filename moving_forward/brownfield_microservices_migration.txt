@@ -1,5 +1,5 @@
 code is organised into bounded contexts
-code related to a business domain or function is in one place
+code related to a specific business domain or function is in one place
 clear boundaries with clear interfaces between each
 
 - convert bounded contexts into microservices
