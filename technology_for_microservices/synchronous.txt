@@ -1,0 +1,19 @@
+
+request-response communication
+- client to service
+- service to service
+- service to external
+
+they wait for the response
+
+technologies used:
+1. one of the technology types we can use here is RPC (Remote procedure call).
+allows us to create distributed client-server programs.
+hides the fact that we are communicating over a network. (almost like a function call)
+
+2. we can also use HTTP here.
+
+
+issues with synchronous communication:
+- both parties have to be available.
+- performance subject to network quality.

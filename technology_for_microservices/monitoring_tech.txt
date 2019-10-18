@@ -1,0 +1,15 @@
+centralized tools
+-- NAGIOS
+-- PRTG
+-- LOAD BALANCERS
+-- NEW RELIC
+
+DESIRED FEATURES
+-- metrics across servers
+-- automatic or minimal configuration
+-- client libraries to send metrics
+-- test transactions support
+-- alerting
+
+NETWORK MONITORING
+-- 

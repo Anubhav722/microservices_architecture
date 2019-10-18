@@ -1,0 +1,16 @@
+- real time monitoring
+- monitor the health of the host
+(cpu usage, memory usage, disk usgae etc.)
+- expose metrics within the services.
+-- response times
+-- timeouts
+-- exceptions or errors
+
+business data related metrics:
+- number of orders
+- average time from basket to checkout
+- 
+
+collect and aggregate monitoring data.
+- monitoring tools that require aggregation.
+

@@ -1,0 +1,4 @@
+- design for known failures.
+- failures of downstream systems
+-- other services internal or external
+

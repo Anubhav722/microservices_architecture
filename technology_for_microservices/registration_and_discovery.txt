@@ -1,0 +1,18 @@
+when we need to connect to a microservice we need to know where the microservice is
+
+where ?
+- host, port, and version
+
+
+1. SERVICE REGISTRY DATABASE
+when we implement new microservices or when we create new instances to meet demand. on startup of these microservices register themselves on this database.
+-- register service on database
+-- deregister service on failure
+-- cloud platforms (AWS, azure) makes it easy.
+-- local platform registration options.
+--- self registration
+--- third party registration
+-- local platform discovery options
+--- client side discovery
+--- server-side discovery (when a gateway or load balancer is used)
+

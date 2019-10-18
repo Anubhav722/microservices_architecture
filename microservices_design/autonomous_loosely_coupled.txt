@@ -1,0 +1,12 @@
+loosely coupled:
+- communication by network
+- synchrounous
+
+we can also make asynchronous requests:
+- publish events handled by messaging broker
+- subscribe to events
+
+contracts between services:
+- fixed and agreed interfaces
+- shared models
+- clear input and output

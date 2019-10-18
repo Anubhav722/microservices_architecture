@@ -1,0 +1,17 @@
+code is organised into bounded contexts
+code related to a business domain or function is in one place
+clear boundaries with clear interfaces between each
+
+- convert bounded contexts into microservices
+-- start off with one
+
+
+prioritize what to split first:
+- by risk (which will have least impact)
+
+incremental approach:
+integrating with the monolithic
+-- monitor both for impact
+-- monitor operations that talk to microservices
+-- review and improve infrastructure
+

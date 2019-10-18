@@ -1,0 +1,10 @@
+business function or business domain
+
+approach:
+- identify business domain in a coarse manner
+
+for ex:
+- accounts domain
+- marketing domain
+- sales domain
+- 

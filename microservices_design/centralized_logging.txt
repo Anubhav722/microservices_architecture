@@ -1,0 +1,5 @@
+difference b/w centralized monitoring and centralized logging is
+
+in monitoring we are collecting numbers i.e. measures
+
+in logging we are actually collecting information about events. it allows us to what happened, why it happened and where it happened.

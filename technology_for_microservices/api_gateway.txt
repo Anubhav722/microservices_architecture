@@ -1,0 +1,15 @@
+central entry point into our system for client application and therefore they can be used improve performance by having load balancing functionality and by having caching funcitonality
+
+help with performance
+- load balancing
+- caching
+
+help with
+- creating central entry point
+- exposing service to client
+- one interface to many services
+- dynamic location of services
+- routing to specific instance of service
+- service registry database
+
+security

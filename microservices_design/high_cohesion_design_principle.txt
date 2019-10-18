@@ -1,0 +1,6 @@
+identify a single focus
+
+for ex. account system (creation, modification), generate an invoice can be a different service
+split into finer grained service
+avoid is kind of "same".
+

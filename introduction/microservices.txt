@@ -1,0 +1,22 @@
+service oriented architecture. (SOA)
+
+- how to size a service
+- traditional SOA resulted in monolithic services
+
+micro sized services provide
+- efficiently scalable applications
+- flexible applications
+- high performance applications
+
+application powered by multiple services
+small service with a single focus.
+
+lightweight communication mechanism
+- both client to service and service to service
+
+technology agnostic API
+independent data storage
+independently changeable
+independently deployable
+
+centralized tooling for management

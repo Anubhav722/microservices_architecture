@@ -1,0 +1,11 @@
+event based communication
+
+- mitigates the need of client and service availability.
+- decouples client and service.
+
+uses message queuing protocol.
+where the events are created by the service as messages are seen as publisher and the service that carries out task in response to these messages is seen as a subscriber.
+
+
+these messages are buffered by a messsage broker until a subscriber picks these messages up.
+the subscriber and publisher only know about the message broker. they are decoupled from each other.

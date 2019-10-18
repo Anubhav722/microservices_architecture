@@ -1,0 +1,22 @@
+type of virutalization
+
+-unlike virtualization, they do not run entire os within the container.
+-they run the minimal amout required to run your service.
+-good way of "isolating services from each other", more stable and secure
+- single service per container
+- different to a virtual machine
+-- use less resource than a VM.
+-- faster than VM.
+-- quicker to create new instances
+
+future of hosted applications
+cloud platform support growing
+mainly linux based
+
+not as established as virtual machines
+-- not standardised
+-- limited features and tooling
+-- infrastructure support in its infancy
+-- complex to setup
+
+

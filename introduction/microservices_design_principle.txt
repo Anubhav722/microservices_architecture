@@ -1,0 +1,54 @@
+1. high cohesion - microservices content and functionality, in terms of input and output must be coherent. it must have a single focus.
+
+- single focus
+- single responsibility
+-- solid principle
+-- only change for one reason
+
+-reason represents
+-- a business function
+-- a business domain
+
+- encapsulation prinicple
+-- OOP principle
+
+- easily rewriteable code
+- easily scalable and flexible
+
+2. autonomous - Should not be subject to change because of any external system it interacts with. 
+
+3. business domain centric - service should represent a business function. for ex. accounts department (contains all accounts functionality). the scope of the microservice should be clear.
+
+- when there is dependency between two microservices. we might need to shuffle code around. group related code into service.
+
+4. resilience - embrace failure when it happens.
+
+- another failure
+- specific connection
+- third party system
+
+to handle we should:
+- degrade functionality (that functionality should not be shown to the user)
+- default functionality
+
+5. observable - should be able to observe our system's health in terms of system status, in terms of logs i.e. what activity is currently happening in the system.
+
+- status
+- logs
+- errors
+
+centralized monitoring
+centralized logging
+
+(need to have centralized monitornig and logging is because we will have distributed transactions)
+
+6. automation
+
+- automated testing
+- time taken on testing integration b/w services and clients
+- environment setup for testing.
+
+
+
+
+

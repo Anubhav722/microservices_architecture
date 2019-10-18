@@ -1,0 +1,17 @@
+avoid shared databases
+
+split databases using seams:
+- relate tables to code seams
+- 
+
+supporting the existing application:
+- data layer that connects to multiple databases
+
+tables that link across seams:
+- API calls that can fetch that data for a relationship
+
+refactor database into multiple databases
+
+data referential integrity (for example cascading: can be done by microservices talking to each other)
+
+static data tables: should be placed in a config file and should be available to all microservices

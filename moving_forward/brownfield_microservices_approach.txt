@@ -1,0 +1,14 @@
+our existing monolithic system
+
+existing system:
+- monolithic system
+- seems large to split
+
+lacks microservices design principles
+- start by splitting the domains within the code. separation which reflects domain
+- by grouping the code, we are identifying bounded contexts.
+- refactoring the code and splitting the dependencies
+
+start modularising the bounded contexts
+- move code incrementally
+

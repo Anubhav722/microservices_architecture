@@ -1,0 +1,20 @@
+using virtual machines as a host
+virtual machines are basically entire instances of operating systems running on hardware which is simulated into software.
+
+we can basically clone multiple copies of virtual machines
+
+foundation of cloud platforms
+- platform as a service (PAAS) they can provide you with entire infrastructure through cloud services to run the microservices architecture.
+-- microsoft azure
+-- aws
+-- your own cloud (for example vSphere) - clouds which we host on physical machines
+
+could be more efficient
+- takes time to setup
+- takes time to load
+- take quite bit of a resource
+
+
+unique features:
+- take snapshot of a virtual machine
+- clone instances

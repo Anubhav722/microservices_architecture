@@ -1,0 +1,8 @@
+different ways of hosting microservices:
+
+1. virtualization
+2. containers
+3. self hosting
+4. registration and discovery
+
+

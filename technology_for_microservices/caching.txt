@@ -1,0 +1,11 @@
+caching to reduce
+- client calls to service
+- service calls to database
+- service to service calls
+
+API Gateway/Proxy level
+
+client side
+
+service level
+

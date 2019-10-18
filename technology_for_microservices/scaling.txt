@@ -1,0 +1,15 @@
+how:
+- increasing the number of instances (horizontal)
+- adding resources to existing service (vertical)
+
+automated or on-demand
+PAAS auto scaling options
+virtualization and containerization
+load balancers
+-- api gateway
+-- 
+
+when to scale up
+-- performance issues
+-- monitoring data show that
+
